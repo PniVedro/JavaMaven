@@ -1,4 +1,3 @@
-package ru.netology.ex.dervice;
 public class BonusService {
     public long calculate(long amount, boolean registered) {
         int percent = registered ? 3 : 1;
